@@ -1,1 +1,1 @@
-web: gunicorn gender-recognition:app
+web: python run.py
