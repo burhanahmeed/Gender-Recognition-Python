@@ -1,0 +1,15 @@
+{
+  "name": "Gender-Recognition-Python",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
