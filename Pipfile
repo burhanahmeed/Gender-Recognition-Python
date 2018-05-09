@@ -12,6 +12,7 @@ scikit-learn= "*"
 scipy= "*"
 matplotlib= "*"
 numpy= "*"
+gunicorn = "*"
 
 [dev-packages]
 
