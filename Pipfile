@@ -5,6 +5,13 @@ name = "pypi"
 
 [packages]
 flask = "*"
+scikit-image = "*"
+imutils= "*"
+opencv-python= "*"
+scikit-learn= "*"
+scipy= "*"
+matplotlib= "*"
+numpy= "*"
 
 [dev-packages]
 
