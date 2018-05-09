@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style.css')}}">
+	<title>Image Receognizer</title>
+</head>
+<body>
+	<div id="body">
+		<h2>Sistem Cerdas (Gender Recognition)</h2>
+		<div class="kepala">
+			<form method="post" action="/upload" enctype="multipart/form-data">
+				<div class="mata">
+					<h4>Testing Images Dataset (Array)</h4>
+					<input type="text" name="dataset" style="color: black;width: 250px" placeholder="array dengan delimiter coma">
+					<input type="file" name="image">
+				</div>
+				<div class="pencet">
+					<input class="processing" type="submit" name="" value="Process">
+				</div>
+			</form>
+			<div class="mulut">
+				<h4>Output : </h4>
+				{% if text %}
+				<p class="output-auto">{{text}}</p>
+				{% else %}
+				<p class="output-auto">...</p>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</body>
+</html>

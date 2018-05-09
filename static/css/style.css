@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #22313F;
+}
+
+#body h2{
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+}
+p, label, input, h4{
+	color: white;
+}
+.mata{
+	margin: 0 auto;
+	display: inline-block;
+	text-align: center;
+	padding: 10;
+	position: relative;
+	width: 100%;
+}
+.kepala{
+	background-color: #5C97BF;
+	width: 300px;
+	/*text-align: center;*/
+	margin: 0 auto;
+	padding: 20px;
+}
+.processing{
+	background-color: #CF000F;
+	padding: 10px;
+	margin: 10;
+}
+.mulut{
+	text-align: center;
+}
+.pencet{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+input[class=processing]{
+	margin-top: 10px;
+}
